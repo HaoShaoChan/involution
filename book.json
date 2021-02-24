@@ -1,0 +1,45 @@
+{
+  "title": "前端从业者心得总结",
+  "description": "写给自己看的心得体会",
+  "author": "ab了c",
+  "output.name": "output",
+  "language": "zh-hans",
+  "root": "/docs",
+  "structure": {
+    "readme": "readme.md",
+    "summary": "summary.md"
+  },
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "plugins": [
+    "hide-element",
+    "livereload",
+    "chapter-fold",
+    "code",
+    "highlight",
+    "splitter",
+    "donate",
+    "-sharing",
+    "-lunr", 
+    "-search"
+  ],
+  "pluginsConfig": {
+    "hide-element": {
+      "elements": [
+        ".gitbook-link",
+        ".divider",
+        ".book-header"
+      ]
+    },
+    "donate": {
+      "wechat": "/img/微信收款.png",
+      "title": "你的打赏将用于支撑此网站的运行",
+      "button": "打赏",
+      "wechatText": "微信打赏"
+    },
+    "theme-default": {
+      "showLevel": true
+    }
+  }
+}
