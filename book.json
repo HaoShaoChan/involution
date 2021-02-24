@@ -2,16 +2,14 @@
   "title": "前端从业者心得总结",
   "description": "写给自己看的心得体会",
   "author": "ab了c",
-  "output.name": "output",
+  "output.name": "docs",
   "language": "zh-hans",
-  "root": "/docs",
+  "root": "/src",
   "structure": {
     "readme": "readme.md",
     "summary": "summary.md"
   },
-  "styles": {
-    "website": "./styles/website.css"
-  },
+  "script": "gitbook build ./ ./docs",
   "plugins": [
     "hide-element",
     "livereload",
@@ -37,9 +35,6 @@
       "title": "你的打赏将用于支撑此网站的运行",
       "button": "打赏",
       "wechatText": "微信打赏"
-    },
-    "theme-default": {
-      "showLevel": true
     }
   }
 }
