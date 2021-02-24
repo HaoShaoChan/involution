@@ -1,0 +1,10 @@
+.DS_Store
+.coverage
+.cache
+.vscode
+.idea
+npm-debug.log
+/node_modules
+/.profile
+/.eslintrc
+/.eslintignore
