@@ -17,7 +17,6 @@
     "chapter-fold",
     "code",
     "highlight",
-    "splitter",
     "donate",
     "-livereload",
     "-sharing",
@@ -33,7 +32,7 @@
       ]
     },
     "donate": {
-      "wechat": "/img/wechat.png",
+      "wechat": "./img/wechat.png",
       "title": "你的打赏将用于支撑此网站的运行",
       "button": "打赏",
       "wechatText": "微信打赏"
