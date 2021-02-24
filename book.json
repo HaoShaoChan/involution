@@ -9,7 +9,15 @@
     "readme": "readme.md",
     "summary": "summary.md"
   },
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
   "script": {
+    "dev": "gitbook serve ./ ./docs",
     "build": "gitbook build ./ ./docs"
   },
   "plugins": [
@@ -17,6 +25,7 @@
     "chapter-fold",
     "code",
     "highlight",
+    "splitter",
     "donate",
     "-livereload",
     "-sharing",
@@ -32,7 +41,7 @@
       ]
     },
     "donate": {
-      "wechat": "./img/wechat.png",
+      "wechat": "https://img.vipkidstatic.com/prt/image/tools/upload/R6BBKWVpVD2w0.png",
       "title": "你的打赏将用于支撑此网站的运行",
       "button": "打赏",
       "wechatText": "微信打赏"
