@@ -9,15 +9,17 @@
     "readme": "readme.md",
     "summary": "summary.md"
   },
-  "script": "gitbook build ./ ./docs",
+  "script": {
+    "build": "gitbook build ./ ./docs"
+  },
   "plugins": [
     "hide-element",
-    "livereload",
     "chapter-fold",
     "code",
     "highlight",
     "splitter",
     "donate",
+    "-livereload",
     "-sharing",
     "-lunr", 
     "-search"
@@ -31,7 +33,7 @@
       ]
     },
     "donate": {
-      "wechat": "/img/微信收款.png",
+      "wechat": "/img/wechat.png",
       "title": "你的打赏将用于支撑此网站的运行",
       "button": "打赏",
       "wechatText": "微信打赏"
